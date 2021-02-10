@@ -2,7 +2,9 @@ package jongkook.core.discount;
 
 import jongkook.core.member.Grade;
 import jongkook.core.member.Member;
+import org.springframework.stereotype.Component;
 
+@Component
 public class RateDiscountPolicy implements DiscountPolicy{
 
     private int discountPercent = 10;
